@@ -1,0 +1,392 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/im6.jpg');
+    opacity: 1.1;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.top {
+    height: 670px;
+    text-align: center;
+}
+
+.top span {
+    font-family: 'Nova Cut', cursive;
+    color: #FAF4E4;
+    font-weight: 600;
+    font-size: 70px;
+    /* added text shadow for better display */
+    text-shadow: 4px 4px 10px #000;
+}
+
+.top h1 {
+    font-family: 'Nova Cut', cursive;
+    color: #FAF4E4;
+    padding-top: 2%;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 30px;
+    /* added text shadow for better display */
+    text-shadow: 4px 4px 10px #000;
+}
+
+.top img {
+    height: 500px;
+    width: 80%;
+    opacity: 0.6;
+}
+
+
+/*----------------------------------------------------------*/
+
+.wrapall {
+    height: 700px;
+    width: 80%;
+    background-color: #FBF3DE;
+    margin: 0 auto;
+}
+
+.word {
+    padding-top: 50px;
+    text-align: center;
+    color: #771C2D;
+    font-family: 'Nova Cut', cursive;
+}
+
+.word p {
+    color: gray;
+}
+
+.word hr {
+    width: 150px;
+    color: #F7F6F4;
+}
+
+.wrap h1 {
+    font-family: 'Cutive', serif;
+}
+
+.w {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    padding: 20px;
+}
+
+.w1,
+.w2,
+.w3 {
+    margin-left: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #771C2D;
+    background: #E9DABB;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10%;
+}
+
+.w p {
+    text-align: left;
+    padding: 5px;
+    color: #0A3677;
+    font-size: 18px;
+}
+
+.w i {
+    color: #771C2D;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+.all {
+    height: 850px;
+    width: 80%;
+    background-color: #771C2D;
+    margin: 0 auto;
+}
+
+.ww {
+    position: absolute;
+    top: 1500px;
+    left: 15%;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #E9DABB;
+}
+
+.words {
+    font-family: 'Nova Cut', cursive;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.words p {
+    color: gray;
+}
+
+.words hr {
+    width: 150px;
+    color: #F7F6F4;
+}
+
+.up div {
+    width: 45%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.up {
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.im1 {
+    background-image: url('../img/b1.jpg');
+}
+
+.im2 {
+    background-image: url('../img/b2.jpeg');
+}
+
+.im3 {
+    background-image: url('../img/b3.jpg');
+    margin-bottom: 50px;
+}
+
+.im4 {
+    background-image: url('../img/b4.jpg');
+    margin-bottom: 50px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.down {
+    height: 1760px;
+    width: 80%;
+    background-color: #771C2D;
+    margin: 0 auto;
+}
+
+.wordss {
+    font-family: 'Nova Cut', cursive;
+    padding-top: 1px;
+    text-align: center;
+    /* from black to light tan color for better display */
+    color: #E9DABB;
+}
+
+.wordss p {
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.wordss hr {
+    width: 150px;
+    color: #F7F6F4;
+}
+
+.wrapd1 {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.d1a {
+    display: inline-block;
+    width: 60%;
+}
+
+.d1a img {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+}
+
+.d1b {
+    background-color: #E9DABB;
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: 400px;
+}
+
+.d1b p {
+    padding-left: 50px;
+    padding-right: 65px;
+    text-align: left;
+    color: #506E82;
+    font-size: 17px;
+}
+
+.d1b h3 {
+    color: #771C2D;
+    padding-top: 150px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+
+/*--------------------------------*/
+
+.wrapd2 {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.d2a {
+    display: inline-block;
+    float: right;
+    width: 60%;
+}
+
+.d2a img {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+}
+
+.d2b {
+    background-color: #E9DABB;
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+}
+
+.d2b p {
+    padding-right: 50px;
+    padding-left: 65px;
+    text-align: right;
+    color: #506E82;
+    font-size: 17px;
+}
+
+.d2b h3 {
+    color: #771C2D;
+    padding-top: 150px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+
+/*----------------------------------------------*/
+
+.wrapd3 {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.d3a {
+    display: inline-block;
+    width: 60%;
+}
+
+.d3a img {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+}
+
+.d3b {
+    background-color: #E9DABB;
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: 400px;
+}
+
+.d3b p {
+    padding-left: 50px;
+    padding-right: 65px;
+    text-align: left;
+    color: #506E82;
+    font-size: 17px;
+}
+
+.d3b h3 {
+    color: #771C2D;
+    padding-top: 150px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+
+/*----------------------------------------*/
+
+.wrapd4 {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.d4a {
+    display: inline-block;
+    float: right;
+    width: 60%;
+}
+
+.d4a img {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+}
+
+.d4b {
+    background-color: #E9DABB;
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+}
+
+.d4b p {
+    padding-right: 50px;
+    padding-left: 65px;
+    text-align: right;
+    color: #506E82;
+    font-size: 17px;
+}
+
+.d4b h3 {
+    color: #771C2D;
+    padding-top: 150px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+
+/*---------------------------footer-------------------*/
+
+.footer {
+    height: 180px;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url('../img/im66.jpg');
+    text-align: center;
+}
+
+.atag i {
+    padding-top: 45px;
+    padding-left: 15px;
+    color: #E9DABB;
+}
+
+.footer p {
+    color: #E9DABB;
+    font-size: 18px;
+}
+
+.c {
+    padding-top: 15px;
+}
+
+.atag i:hover {
+    color: #771C2D;
+}

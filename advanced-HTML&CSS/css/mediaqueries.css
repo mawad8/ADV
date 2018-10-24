@@ -1,0 +1,265 @@
+/*==========================================
+ Responsive
+===========================================*/
+
+
+/* Large Desktops */
+
+@media only screen and (max-width: 2400px) {
+    .top span {
+        font-size: 90px;
+    }
+    .top h1 {
+        font-size: 40px;
+    }
+    .word p,
+    .words p,
+    .w p,
+    .d1b p,
+    .d2b p,
+    .d3b p,
+    .d4b p {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 2.8em;
+    }
+    .ww {
+        position: absolute;
+        top: 1565px;
+    }
+    .wordss {
+        padding-top: 220px;
+    }
+    .words h1,
+    .wordss h1 {
+        font-size: 3.5em;
+    }
+    .wrapall {
+        height: 820px;
+    }
+    .up div {
+        height: 340px;
+    }
+    .d1b h3,
+    .d2b h3,
+    .d3b h3,
+    .d4b h3 {
+        font-size: 2em;
+    }
+    .d1a img,
+    div.d1b,
+    .d2a img,
+    div.d2b,
+    .d3a img,
+    div.d3b,
+    .d4a img,
+    div.d4b {
+        height: 460px;
+    }
+    .down {
+        height: 2286px;
+    }
+}
+
+
+/* Desktops */
+
+@media only screen and (max-width: 1920px) {
+    .wrapall {
+        height: 900px;
+    }
+    .ww {
+        top: 1645px;
+    }
+    .up div {
+        height: 285px;
+    }
+    .d1b h3,
+    .d2b h3,
+    .d3b h3,
+    .d4b h3 {
+        padding-top: 40px;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    .word p,
+    .words p,
+    .w p,
+    .d1b p,
+    .d2b p,
+    .d3b p,
+    .d4b p {
+        font-size: 18px;
+    }
+}
+
+
+/* Tablet Portrait  */
+
+@media only screen and (max-width: 1366px) {
+    .wrapall {
+        height: 700px;
+    }
+    .ww {
+        top: 1476px;
+    }
+    .up div {
+        height: 190px;
+    }
+    .all {
+        height: 615px;
+    }
+    .d1a img,
+    div.d1b,
+    .d2a img,
+    div.d2b,
+    .d3a img,
+    div.d3b,
+    .d4a img,
+    div.d4b {
+        height: 390px;
+    }
+    .down {
+        height: 2006px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top {
+        height: 470px;
+    }
+    .top span {
+        font-size: 70px;
+    }
+    .top h1 {
+        font-size: 40px;
+    }
+    .top img,
+    .wrapall,
+    .all,
+    .down,
+    .footer {
+        width: 90%;
+    }
+    .top img {
+        height: 200px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .wrapall {
+        height: 1700px;
+    }
+    .w,
+    .up {
+        display: block;
+    }
+    div.w1,
+    div.w2 {
+        margin-bottom: 2em;
+    }
+    .w1 h1,
+    .w2 h1,
+    .w3 h1 {
+        font-size: 1.8em;
+    }
+    .w1 p,
+    .w2 p,
+    .w3 p {
+        text-align: justify;
+    }
+    .word p,
+    .words p,
+    .w p,
+    .d1b p,
+    .d2b p,
+    .d3b p,
+    .d4b p {
+        font-size: 20px;
+    }
+    .w1,
+    .w2,
+    .w3 {
+        width: 75%;
+    }
+    .ww {
+        top: 2230px;
+        left: 12%;
+        width: 76%;
+    }
+    .up div {
+        width: 90%;
+        height: 180px;
+    }
+    .all {
+        height: 940px;
+    }
+    div.im1,
+    div.im2,
+    div.im3,
+    div.im4 {
+        margin-bottom: 2em;
+        box-shadow: 2px 2px 2px #000;
+    }
+    div.wrapd1,
+    div.wrapd2,
+    div.wrapd3,
+    div.wrapd4 {
+        display: grid;
+    }
+    .d1a,
+    .d2a,
+    .d3a,
+    .d4a,
+    .d1b,
+    .d2b,
+    .d3b,
+    .d4b {
+        width: 100%;
+    }
+    .d1a img,
+    .d2b img,
+    .d3b img,
+    .d4b img {
+        height: 300px;
+    }
+    .d1b p,
+    .d2b p,
+    .d3b p,
+    .d4b p {
+        font-size: 22px;
+    }
+    .down {
+        height: 3546px;
+    }
+}
+
+
+/* Mobile Portrait */
+
+@media only screen and (max-width: 480px) {}
+
+
+/* Mobile Landscape */
+
+@media only screen and (max-height: 414px) and (max-width: 736px) {
+    .top {
+        height: 380px;
+    }
+    .wrapall {
+        height: 1480px;
+    }
+    .ww {
+        top: 1915px;
+    }
+    div.w1,
+    div.w2,
+    div.w3 {
+        margin: 0 auto 2em;
+    }
+    .down {
+        height: 3480px;
+    }
+}
